@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+    
+/* Add a background color to the top navigation */
+.topnav 
+{
+    background: linear-gradient(135deg, #e6de71, #71b7e6);
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.topnav .logo 
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Background*/
+.container
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Images/pusheenBGNew.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+/*Table*/
+.table 
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tr, td 
+{
+    text-align: center;
+    color: #71b7e6;
+    background-color: white;
+    padding: 15px;
+    font-size: 18px;
+    width: 450px;
+}
+
+.footer
+{
+    background: linear-gradient(135deg, #e6de71, #71b7e6);
+    height: 80px;
+    position: relative;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.footer .footer-bottom
+{
+    background: linear-gradient(135deg, #e6de71, #71b7e6);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 40px;
+}
